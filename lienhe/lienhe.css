@@ -1,0 +1,164 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box !important;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Roboto Slab;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+h1 h2 h3 p {
+    font-family: 'Roboto Slab';
+}
+
+.menuchinh {
+    font-family: 'Roboto Slab';
+    margin-top: 50px;
+}
+.container{
+    margin-top: 50px;
+}
+.menuchinh ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+.menuchinh ul{
+    width: 105%;
+}
+#logo img{
+    padding-top: 50px;
+}
+#seach{
+    padding-top: 50px;
+}
+.classheader {
+    background-image: url(https://webdulichdanang.com/wp-content/uploads/2018/02/cau-rong-da-nang.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    max-width: 1900px;
+}
+.lienhe{
+    text-align: center;
+    color: white;
+    margin-top: 10%;    
+}
+/*main*/
+.baobocmain{
+    width: 60%;
+    margin: 0 auto;
+}
+.tieudemain{
+    text-align: center;
+    padding: 15px;
+}
+.capanh2{
+    background-color: white;
+    border: 2px solid black;
+    margin: 20px 0;
+    text-align: center;
+}
+.capanh2 p{
+    padding: 10px 20px;
+    text-align: center;
+}
+.capanh2 h3{
+    padding-top: 10px;
+}
+/*end-main*/
+/*gioithieutour*/
+#gioithieutour{
+    padding: 0 !important;
+}
+.baoboc1{
+    padding: 130px;
+    background-color: #E04F67;
+    height: 400px;
+    color: white;
+    position: relative;
+    border-radius: 10px;
+}
+.baoboc2{
+    padding: 130px;
+    background-color: #E04F67;
+    height: 400px;
+    color: white;
+    position: relative;
+    border-radius: 10px;
+}
+.booktour{
+    width: 150px;
+    border: 1px solid #E04F67;
+    height: 40px;
+    border-radius: 5px;
+    color:#E04F67;
+}
+.booktour a{
+    color:#E04F67;
+    text-decoration: none;
+}
+.booktour:hover{
+    background-color: black;
+    color:white;
+}
+.booktour:hover a{
+    color:white
+}
+.bookkhachsan{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #E04F67;
+    border-radius: 5px;
+    color:#E04F67;
+}
+.bookkhachsan a{
+    color:#E04F67;
+    text-decoration: none;
+}
+.bookkhachsan:hover{
+    background-color: black;
+    color:white;
+}
+.bookkhachsan:hover a{
+    color:white
+}
+/*end*/
+footer{
+    background-color: rgba(0, 0, 0, 0.281);
+    margin-top: 30px;
+    padding-top: 30px;
+    
+}
+.phattrien{
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+
+@media (min-width: 360px) and (max-width: 573px){
+    
+    .baoboc2{
+        padding: 130px;
+        background-color: #E04F67;
+        height: 573px;
+        color: white;
+        position: relative;
+        border-radius: 10px;
+        width: 573px;
+    }
+    .baoboc1{
+        padding: 130px;
+        background-color: #E04F67;
+        height: 573px;
+        color: white;
+        position: relative;
+        border-radius: 10px;
+    }
+
+}

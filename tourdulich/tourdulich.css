@@ -1,0 +1,159 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box !important;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Roboto Slab;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+h1 h2 h3 p {
+    font-family: 'Roboto Slab';
+}
+
+.menuchinh {
+    font-family: 'Roboto Slab';
+}
+
+.menuchinh ul li {
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.classheader {
+    background-image: url(https://webdulichdanang.com/wp-content/uploads/2018/02/cau-rong-da-nang.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    max-width: 1900px;
+}
+
+.container {
+    padding-top: 49px;
+}
+
+.item {
+
+    line-height: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.item:hover {
+    color: #E04F67;
+    background-color: #F9F9F9;
+    width: 100%;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.trogiupcon {
+    opacity: 0;
+    transition: .4s ease-in-out;
+    margin-top: -50px;
+}
+
+.help:hover .trogiupcon {
+    opacity: 1;
+    margin-top: 0px;
+
+}
+
+/* danh sach phan giua */
+.listgia li a {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.classheader .col-xs-8 {
+    display: flex;
+}
+
+.col-xs-6 {
+    margin: 20px 0;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.main .col-xs-3 {
+    border: 3px solid #F2F2F2;
+    background-color: white;
+}
+
+.container-img {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+}
+.container-img img {
+    width: 480px;
+}
+.giaca {
+    font-size: 28px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    padding: 13px 10px 8px 5px;
+    float: right;
+}
+
+h3 {
+    padding: 15px 20px 15px 15px;
+    position: relative;
+    font-size: 20px;
+    background-color: white;
+}
+
+.hotelcontainer {
+    box-shadow: 0px 0px 5px 0px #F2F2F2;
+}
+
+h6 {
+    padding: 15px 0 0;
+    margin: 15px 0;
+}
+
+.tiennghi {
+    border-top: 1px solid #ddd;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.281);
+    margin-top: 30px;
+    padding-top: 30px;
+    
+}
+.phattrien{
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+@media (min-width: 574px) and (max-width: 992px) {
+    footer{
+        text-align: center;
+    }
+    .main{
+        display: inline-flex;
+    }
+    
+
+}
+@media (min-width: 360px){
+    footer{
+        text-align: center;
+    }
+}   
